@@ -406,3 +406,15 @@ nav button.active {
     border-width: 16px;
   }
 }
+
+#category-description {
+  text-align: center;
+  font-size: 1.2rem;
+  margin: 2rem;
+  color: #1e3a8a;
+  font-weight: 600;
+}
+
+#category-description.hidden {
+  display: none;
+}
