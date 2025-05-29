@@ -21,7 +21,6 @@
       <button class="filter-button" data-filter="angielski">Po angielsku (18)</button>
     </div>
   </header>
-  <div id="category-description" class="category-description hidden"></div>
   <main class="gallery">
     <!-- <div class="meme-placeholder religijne" style="background-color: #f87171;"></div> !-->
     <div class="meme-placeholder religijne"><img src="4-wersje.jpg"></div>  
@@ -187,12 +186,16 @@
   </main>
   <div id="image-modal" class="modal hidden">
     <span class="close-button">&times;</span>
-    <div class="modal-arrow arrow-left hidden"></div>
-    <div class="modal-content">
-      <img id="modal-image" src="" alt="Powiększony obrazek" />
+    <div class="modal-inner">
+      <div class="modal-content">
+        <img id="modal-image" src="" alt="Meme" />
+      </div>
+      <div class="modal-arrows">
+        <div class="modal-arrow arrow-left"></div>
+        <div class="modal-arrow arrow-right"></div>
+      </div>
     </div>
-    <div class="modal-arrow arrow-right hidden"></div>
-  </div>    
+  </div>
   <script src="script.js"></script>
 </body>
 </html>
